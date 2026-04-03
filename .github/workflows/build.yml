@@ -63,6 +63,7 @@ jobs:
         prerelease: false
 
   # --- NUEVO: job de provenance SLSA ---
+  # --- a
   provenance:
     needs: [build]
     permissions:
